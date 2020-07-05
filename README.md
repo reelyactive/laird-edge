@@ -34,7 +34,7 @@ All configuration parameters can be found in the file __config/config.js__.  Upd
 | RADDEC_FILTER_PARAMETERS  | (see raddec-filter)                             |
 | INCLUDE_TIMESTAMP         | Include the optional timestamp in each raddec (default: true) |
 | INCLUDE_PACKETS           | Include the optional packets in each raddec (default: true) |
-| IS_DEBUG_MODE             | Set true and `t2 run index.js` for console log  |
+| IS_DEBUG_MODE             | Set true and run in console to see log output   |
 
 Each raddec target in the RADDEC_TARGETS array is an object with the following properties:
 - _host_: an IP address or hostname (ex: '192.168.1.10')
