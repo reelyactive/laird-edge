@@ -11,7 +11,7 @@ const Raddec = require('raddec');
 // -----------------------------
 
 const RADDEC_TARGETS = [
-    { protocol: "udp", host: "192.168.1.255", port: "50001" }
+    { protocol: "udp", host: "255.255.255.255", port: "50001" }
 ];
 const DIRACT_PROXIMITY_TARGETS = [
 ];
@@ -25,7 +25,7 @@ const RADDEC_FILTER_PARAMETERS = {
     minRSSI: -90
 };
 const INCLUDE_TIMESTAMP = true;
-const INCLUDE_PACKETS = false;
+const INCLUDE_PACKETS = true;
 const IS_DEBUG_MODE = false;
 
 // ---------------------------
