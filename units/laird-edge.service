@@ -1,0 +1,12 @@
+[Unit]
+Description=reelyActive edge software for Laird gateways
+After=network.target
+
+[Service]
+WorkingDirectory=/home/summit/laird-edge
+ExecStart=/bin/npm start
+Restart=on-failure
+User=root
+
+[Install]
+WantedBy=multi-user.target
